@@ -1,7 +1,7 @@
 import io, sys
 import utemplate.source
 
-tpl_name = "test.tpl.html"
+tpl_name = "templates/test.tpl.html"
 
 f_out = io.StringIO()
 with open(tpl_name) as f_in:
